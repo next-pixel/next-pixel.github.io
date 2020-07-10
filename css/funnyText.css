@@ -1,0 +1,25 @@
+@charset "utf-8";.charWrap{display:inline-block;overflow:hidden;position:relative}.funnyText span.bottom,.funnyText span.left,.funnyText span.right,.funnyText span.top{position:absolute}.funnyText .charWrap{transition:all .4s ease-in-out 0s;-webkit-transition:all .4s ease-in-out 0s;-moz-transition:all .4s ease-in-out 0s;-ms-transition:all .4s ease-in-out 0s;-o-transition:all .4s ease-in-out 0s}.funnyText .charWrap .top{top:0}.funnyText .charWrap .left{left:0}.funnyText .charWrap .right{right:0}.funnyText .charWrap .bottom{bottom:0}.funnyText .character{display:inline-block;overflow:hidden}
+
+
+	.alignleft, img.alignleft { display: inline; float: left;  text-align:left; }
+	.alignright, img.alignright { display: inline; float: right; text-align:right; }
+	.aligncenter, img.aligncenter { clear: both; display: block; margin-left: auto; margin-right: auto; text-align:center; }
+
+
+h2.funnyText span.active{
+	color: #19B09A !important;
+}
+
+.canny{
+		display: inline-block;
+		height: 100%;
+		line-height: 90px;
+		padding:0 15px 0;
+		font-size:14px;
+		letter-spacing: 0.2px;
+		background:transparent;
+		position: relative;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		transition: all 0.5s;
+}
